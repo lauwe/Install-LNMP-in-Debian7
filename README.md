@@ -22,7 +22,7 @@ Add PGP key from nginx.org
 	apt-key add nginx_signing.key
 Then, append the following to the end of the /etc/apt/sources.list file.
 	vi /etc/apt/sources.list
-Add the following codes
+Add the following codes：
 	deb http://nginx.org/packages/debian/ wheezy nginx
 	deb-src http://nginx.org/packages/debian/ wheezy nginx
 Then run the following commands:
