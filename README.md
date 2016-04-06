@@ -18,16 +18,24 @@ Install Nginx, PHP and Mysql on Debian7 from source.
 	Reading package lists... Done
 ## Install Nginx
 Add PGP key from nginx.org
+
 	wget http://nginx.org/keys/nginx_signing.key
 	apt-key add nginx_signing.key
-Then, append the following to the end of the /etc/apt/sources.list file.
+
+Then, append the following to the end of the _/etc/apt/sources.list_ file.
+
 	vi /etc/apt/sources.list
+
 Add the following codes：
+
 	deb http://nginx.org/packages/debian/ wheezy nginx
 	deb-src http://nginx.org/packages/debian/ wheezy nginx
+
 Then run the following commands:
+
 	apt-get update
 	apt-get install nginx
+
 Now enter your ip in the browser, you will see the following content.
 ![](https://raw.githubusercontent.com/lauwe/Install-LNMP-in-Debian7/master/assets/20160406163156.png)
 
