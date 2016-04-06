@@ -29,3 +29,5 @@ Then run the following commands:
 	apt-get update
 	apt-get install nginx
 Now enter your ip in the browser, you will see the following content.
+![](https://raw.githubusercontent.com/lauwe/Install-LNMP-in-Debian7/master/assets/20160406163156.png)
+
