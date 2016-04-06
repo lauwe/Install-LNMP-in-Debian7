@@ -39,3 +39,5 @@ Then run the following commands:
 Now enter your ip in the browser, you will see the following content.
 ![](https://raw.githubusercontent.com/lauwe/Install-LNMP-in-Debian7/master/assets/20160406163156.png)
 
+Reference http://nginx.org/en/linux_packages.html
+
