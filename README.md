@@ -10,9 +10,10 @@ apt-get update
 	W: There is no public key available for the following key IDs:
 	7638D0442B90D010
 ## Fix it with
-apt-get install debian-keyring debian-archive-keyring
-apt-key update
+	apt-get install debian-keyring debian-archive-keyring
+	apt-key update
 ## Re-update
 	apt-get update
+	......
 	Reading package lists... Done
 ## Install Nginx
