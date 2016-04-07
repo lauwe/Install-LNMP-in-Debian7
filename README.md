@@ -1,22 +1,23 @@
 # Install-LNMP-in-Debian7
 Install Nginx, PHP and Mysql on Debian7 from source.
-# See below for more information
-# Update Debian7
+## See below for more information
+## Install Nginx
+### Update Debian7
 	apt-get update
-## Error
+### Error
 	Reading package lists... Done
 	W: There is no public key available for the following key IDs:
 	9D6D8F****57C906
 	W: There is no public key available for the following key IDs:
 	7638D0****90D010
-## Fix it with
+### Fix it with
 	apt-get install debian-keyring debian-archive-keyring
 	apt-key update
-## Re-update
+### Re-update
 	apt-get update
 	......
 	Reading package lists... Done
-## Install Nginx
+### Install Nginx
 Add PGP key from nginx.org
 
 	wget http://nginx.org/keys/nginx_signing.key
@@ -40,4 +41,82 @@ Now enter your ip in the browser, you will see the following content.
 ![](https://raw.githubusercontent.com/lauwe/Install-LNMP-in-Debian7/master/assets/20160406163156.png)
 
 Reference http://nginx.org/en/linux_packages.html
+
+## Install php
+
+
+
+
+
+
+wget http://php.net/distributions/php-5.5.34.tar.gz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
