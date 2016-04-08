@@ -44,11 +44,6 @@ Reference http://nginx.org/en/linux_packages.html
 
 ## Install php
 
-
-
-
-
-
 wget http://php.net/distributions/php-5.5.34.tar.gz
 
 
